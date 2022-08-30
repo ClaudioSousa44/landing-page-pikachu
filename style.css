@@ -129,6 +129,22 @@ footer{
     .img-pikachu{
         transform: translate(-50%, -60%);
     }
-    }
+    
 
 }
+
+@media (max-width: 650px){
+    .description__text{
+        display: none;
+    }
+    .description__title{
+        font-size: 10vw;
+    }
+    .action{
+        width: 100%;
+    }
+    .img-pikachu{
+        width: 90vw;
+    }
+}
+
